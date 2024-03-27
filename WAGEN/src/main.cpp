@@ -28,19 +28,19 @@ void linksgaan() {
   digitalWrite(5, LOW);
   analogWrite(6, 64);
   digitalWrite(3, HIGH);
-  analogWrite(9, 64);
+  analogWrite(9, 255-64);
 }
 
 void achteruitgaan() {
   digitalWrite(5, HIGH);
-  analogWrite(6, 128);
+  analogWrite(6, 255-64);
   digitalWrite(3, HIGH);
-  analogWrite(9, 64);
+  analogWrite(9, 255-64);
 }
 
 void rechtsgaan() {
   digitalWrite(5, HIGH);
-  analogWrite(6, 64);
+  analogWrite(6, 255-64);
   digitalWrite(3, LOW);
   analogWrite(9, 64);
 }
